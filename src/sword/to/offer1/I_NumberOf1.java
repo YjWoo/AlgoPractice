@@ -1,4 +1,4 @@
-package sword.to.offer;
+package sword.to.offer1;
 
 public class I_NumberOf1 {
 	//给定整数二进制中1的个数

@@ -1,4 +1,4 @@
-package sword.to.offer;
+package sword.to.offer1;
 
 public class N_MergeTwoListNode {
 	public static class ListNode {

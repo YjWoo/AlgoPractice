@@ -1,4 +1,4 @@
-package sword.to.offer;
+package sword.to.offer1;
 
 public class W_ConvertTreeToDLinkedList {
 	public class TreeNode {

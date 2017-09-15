@@ -1,4 +1,4 @@
-package sword.to.offer;
+package sword.to.offer1;
 
 public class F_minNumberInRotateArray {
 	//旋转数组最小数字

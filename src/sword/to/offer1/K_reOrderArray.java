@@ -1,4 +1,4 @@
-package sword.to.offer;
+package sword.to.offer1;
 
 public class K_reOrderArray {
 	// 数组排序，奇数在前，偶数在后，同类数次序不变

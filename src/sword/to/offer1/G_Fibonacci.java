@@ -1,4 +1,4 @@
-package sword.to.offer;
+package sword.to.offer1;
 
 public class G_Fibonacci {
 	// 斐波那契数列

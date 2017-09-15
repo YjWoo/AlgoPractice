@@ -1,4 +1,4 @@
-package sword.to.offer;
+package sword.to.offer1;
 
 public class A_ArrayFind {
 	// 二维数组查找,array行列递增

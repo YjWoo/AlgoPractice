@@ -1,4 +1,4 @@
-package sword.to.offer;
+package sword.to.offer1;
 
 public class P_MirrorTree {
 	public class TreeNode {
