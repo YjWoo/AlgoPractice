@@ -24,7 +24,7 @@ public class L_permute {
 	}
 
 	public static void main(String[] args) {
-		int[] array1 = { 5, 4, 1 };
+		int[] array1 = { 5, 4, 1,7,12,17};
 
 		System.out.println(permute(array1));
 	}
