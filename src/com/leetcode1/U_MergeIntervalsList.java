@@ -20,7 +20,7 @@ public class U_MergeIntervalsList {
 			end = e;
 		}
 	}
-
+	//合并列表内所有Interval类
 	public List<Interval> merge(List<Interval> intervals) {
 		List<Interval> result = new ArrayList<>();
 		intervals.sort(new Comparator<Interval>() {
