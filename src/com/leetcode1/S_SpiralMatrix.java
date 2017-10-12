@@ -2,7 +2,7 @@ package com.leetcode1;
 
 import java.util.ArrayList;
 
-public class S_spiralOrder {
+public class S_SpiralMatrix {
 	// 顺时针遍历矩阵
 	public static ArrayList<Integer> spiralOrder(int[][] matrix) {
 		if (matrix == null)
