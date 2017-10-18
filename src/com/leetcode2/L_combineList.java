@@ -1,0 +1,29 @@
+package com.leetcode2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class L_combineList {
+	// 返回1~n中所有长度为k的列表，回溯法
+	public static List<List<Integer>> combine(int n, int k) {
+		List<List<Integer>> res = new ArrayList<>();
+		addList(res, new ArrayList<>(), 1, n, k);
+		return res;
+	}
+
+	public static void addList(List<List<Integer>> res, List<Integer> lsit, int start, int n, int k) {
+		if (k == 0) {
+			res.add(new ArrayList<Integer>(lsit));
+			return;
+		}
+		for (int i = start; i <= n; i++) {
+			lsit.add(i);
+			addList(res, lsit, i + 1, n, k - 1);
+			lsit.remove(lsit.size() - 1);
+		}
+	}
+
+	public static void main(String[] args) {
+		System.out.println(combine(10, 3));
+	}
+}
