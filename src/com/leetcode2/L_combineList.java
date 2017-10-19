@@ -11,15 +11,15 @@ public class L_combineList {
 		return res;
 	}
 
-	public static void addList(List<List<Integer>> res, List<Integer> lsit, int start, int n, int k) {
+	public static void addList(List<List<Integer>> res, List<Integer> list, int start, int n, int k) {
 		if (k == 0) {
-			res.add(new ArrayList<Integer>(lsit));
+			res.add(new ArrayList<Integer>(list));
 			return;
 		}
 		for (int i = start; i <= n; i++) {
-			lsit.add(i);
-			addList(res, lsit, i + 1, n, k - 1);
-			lsit.remove(lsit.size() - 1);
+			list.add(i);
+			addList(res, list, i + 1, n, k - 1);
+			list.remove(list.size() - 1);
 		}
 	}
 
