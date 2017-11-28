@@ -1,10 +1,11 @@
 package com.leetcode4;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class E_wordBreak {
 	// s能否用wordDict内单词组成，返回布尔值
-	public boolean wordBreak(String s, List<String> wordDict) {
+	public static boolean wordBreak(String s, List<String> wordDict) {
 		boolean[] f = new boolean[s.length() + 1];
 		f[0] = true;
 		for (int i = 1; i <= s.length(); i++) {
@@ -16,5 +17,14 @@ public class E_wordBreak {
 			}
 		}
 		return f[s.length()];
+	}
+
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		list.add("I");
+		list.add("miss");
+		list.add("you");
+
+		System.out.println(wordBreak("Imissyou", list));
 	}
 }
