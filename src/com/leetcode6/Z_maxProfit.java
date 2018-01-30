@@ -21,6 +21,8 @@ public class Z_maxProfit {
 
 	public static void main(String[] args) {
 		int[] array = { 1, 2, 3, 67, 43, 213, 324, 6, 43, 123, 12, 4, 23 };
+		int[] array1 = { 3, 4, 5, 6, 7, 8, 9, 20, 1, 23, 4, 3, 21 };
 		System.out.println(new Z_maxProfit().maxProfit(array));
+		System.out.println(new Z_maxProfit().maxProfit(array1));
 	}
 }
